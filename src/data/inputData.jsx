@@ -1,0 +1,58 @@
+export const inputData = [
+  {
+    id: 1,
+    label: "Username",
+    placeholder: "Enter your username",
+    type: "text",
+    required: true,
+  },
+  {
+    id: 2,
+    label: "Email",
+    placeholder: "Enter your email",
+    type: "email",
+    required: true,
+  },
+  {
+    id: 3,
+    label: "Password",
+    placeholder: "Enter your password",
+    type: "password",
+    required: true,
+  },
+  {
+    id: 4,
+    label: "Confirm Password",
+    placeholder: "Confirm your password",
+    type: "password",
+    required: true,
+  },
+  {
+    id: 5,
+    label: "Phone Number",
+    placeholder: "Enter your phone number",
+    type: "tel",
+    required: false,
+  },
+  {
+    id: 6,
+    label: "Date of Birth",
+    placeholder: "Select your date of birth",
+    type: "date",
+    required: true,
+  },
+  {
+    id: 7,
+    label: "Address",
+    placeholder: "Enter your address",
+    type: "text",
+    required: false,
+  },
+  {
+    id: 8,
+    label: "Message",
+    placeholder: "Enter your message",
+    type: "textarea",
+    required: true,
+  },
+];
